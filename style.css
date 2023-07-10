@@ -145,6 +145,7 @@ body {
   align-items: center;
   border-radius: 8px;
   background: rgba(229, 84, 115, 0.05);
+  margin-bottom: 128px;
 }
 .beauty-info {
   text-align: center;
@@ -159,4 +160,36 @@ body {
   color:#E55473;
   font-size: 40px;
   font-weight: 800;
+}
+
+  /* This is box-img section style */
+
+.box-img-content{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   gap: 24px;
+   margin-top: 40px;
+   margin-bottom: 128px;
+}
+
+.box-img{
+  width: 342px;
+  height: 396px;
+  background:  lightgray
+}
+.box-img1{
+  width: 342px;
+  height: 396px;
+  background:lightgray ;
+}
+.box-img2{
+  width: 342px;
+  height: 396px;
+  background: lightgray
+}
+.box-img3{
+  width: 342px;
+  height: 396px;
+  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
 }
