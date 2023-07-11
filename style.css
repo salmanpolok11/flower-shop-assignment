@@ -6,14 +6,13 @@ body {
 /* bannar releted style */
 .header {
   width: 100%;
-  height: ;
   background-size: cover;
   background: rgba(229, 84, 115, 0.1);
   margin-bottom: 240px;
 }
 .bannar-containar {
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
 }
 .bannar-title-head {
@@ -46,7 +45,6 @@ body {
 .main-title {
   color: #272727;
   text-align: center;
-  font-family: Lato;
   font-size: 40px;
   font-weight: 800;
 }
@@ -58,7 +56,7 @@ body {
   line-height: 30px;
 }
 
-/* box releted style */
+/* main box releted style */
 
 .main-containar {
   margin-bottom: 240px;
@@ -170,9 +168,9 @@ body {
   justify-content: center;
   gap: 24px;
   margin-top: 40px;
-  margin-bottom: 128px;
+  margin-bottom: 158px;
 }
-
+ 
 .box-img {
   width: 342px;
   height: 396px;
@@ -191,7 +189,21 @@ body {
 .box-img3 {
   width: 342px;
   height: 396px;
-  background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+  background:lightgray;
+}
+
+.flower-name{
+  text-align: center;
+}
+
+.checked{
+  color: #e55473;
+  text-align: center;
+}
+.flower-rating{
+  text-align: center;
+  padding-bottom:10px;
+
 }
 
 /* Last-bannar-containar style */
